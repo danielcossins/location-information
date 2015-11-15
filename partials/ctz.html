@@ -56,3 +56,8 @@
   <input class="form-control" type="text" ng-model="city">
 </div>
 <button class="middle btn btn-default" type="button" ng-click="getLocation()">Get Info</button>
+
+<div ng-show="ajax">
+  <h3 class="middle" ng-repeat="(key, item) in ajax">{{key}}: {{item}}</h3>
+  <h4 ng-repeat="place in places">{{place}}</h4>
+</div>
