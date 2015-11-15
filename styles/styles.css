@@ -1,3 +1,6 @@
-
+.middle {
+  display: block;
+  text-align: center;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=styles.css.map */
