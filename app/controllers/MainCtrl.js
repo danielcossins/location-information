@@ -1,16 +1,17 @@
 app.controller("MainCtrl", 
   ["$scope", "$http",
   function($scope, $http) {
-    $scope.input;
+    // $scope.input;
 
-    // runAjax();
+    // // runAjax();
 
-    $scope.runAjax = function(){
-      $http.get("http://api.zippopotam.us/us/" + $scope.input)
-      .then(function(data){
-        console.log(data);
-        $scope.ajax = data;
-      })
-    }
+    // $scope.getLocation = function(){
+    //   $http.get("http://api.zippopotam.us/us/ks/spring hill/18950")
+    //   // $http.get("http://api.zippopotam.us/us/" + $scope.input)
+    //   .then(function(data){
+    //     console.log(data);
+    //     $scope.ajax = data;
+    //   })
+    // }
   }
 ]);

@@ -9,6 +9,11 @@
 
 <body ng-app="Loc-Inf">
   <h1 class="middle words">Location Information</h1>
+  
+  <div class="btn-group btn-group-lg">
+    <a href="/#/zip-to-city" class="btn btn-default">Zip Code to City</a>
+    <a href="/#/city-to-zip" class="btn btn-default">City To Zip Code</a>
+  </div>
 
   <div ng-view>
 
@@ -23,6 +28,8 @@
 
   <script src="app/app.js"></script>
   <script src="app/controllers/MainCtrl.js"></script>
+  <script src="app/controllers/ZTCCtrl.js"></script>
+  <script src="app/controllers/CTZCtrl.js"></script>
 </body>
 
 </html>
