@@ -14,7 +14,13 @@ app.controller("ZTCCtrl",
         console.log(data);
         var obj = {
           country: data.data.country,
-          zipCode: data.data['post code']
+          countryAbrev: data.data['country abbreviation'],
+          zipCode: data.data['post code'],
+          lat: data.data.places[0].latitude,
+          lon: data.data.places[0].longitude,
+          city: data.data.places[0]['place name'],
+          state: data.data.places[0].state,
+          stateAbrev: data.data.places[0]['state abbreviation']
         };
         console.log(obj);
       });
