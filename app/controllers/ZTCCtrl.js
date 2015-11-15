@@ -23,6 +23,7 @@ app.controller("ZTCCtrl",
           stateAbrev: data.data.places[0]['state abbreviation']
         };
         console.log(obj);
+        $scope.ajax = obj;
       });
     };
   }
