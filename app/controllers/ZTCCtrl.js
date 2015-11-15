@@ -1,7 +1,7 @@
 app.controller("ZTCCtrl", 
   ["$scope", "$http",
   function($scope, $http) {
-    $scope.country = "";
+    $scope.country = "US";
     $scope.input = "";
 
     // runAjax();
@@ -12,7 +12,11 @@ app.controller("ZTCCtrl",
       $http.get("http://api.zippopotam.us/" + $scope.country + "/" + $scope.input)
       .then(function(data){
         console.log(data);
-        $scope.ajax = data;
+        var obj = {
+          country: data.data.country,
+          zipCode: data.data['post code']
+        };
+        console.log(obj);
       });
     };
   }
