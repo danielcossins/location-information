@@ -67,4 +67,14 @@ option {
     color: white;
     transition: .2s ease; }
 
+.ghostOverride {
+  background-color: transparent;
+  color: grey;
+  border: 1px solid grey;
+  transition: .2s ease; }
+  .ghostOverride:hover {
+    background-color: transparent;
+    color: white;
+    transition: .2s ease; }
+
 /*# sourceMappingURL=styles.css.map */

@@ -53,10 +53,12 @@ option{
 
 
 
+
 // $primary: #F07444;
 $secondary: #f3f3f3;
 $primary: grey;
 $gray: #232323;
+
 
 .button {
   // display: inline-block;
@@ -104,6 +106,20 @@ $gray: #232323;
   
   &:hover {
     background-color: $primary;
+    color: white;
+    
+    transition: .2s ease;
+  }
+}
+.ghostOverride {
+  background-color: transparent;
+  color: $primary;
+  border: 1px solid $primary;
+  
+  transition: .2s ease;
+  
+  &:hover {
+    background-color: transparent;
     color: white;
     
     transition: .2s ease;
