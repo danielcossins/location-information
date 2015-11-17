@@ -29,4 +29,39 @@ body {
 nav {
   background-color: white; }
 
+.button {
+  display: inline-block;
+  border-radius: 2px;
+  border: none;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.sm {
+  width: 10%; }
+
+.md {
+  width: 20%; }
+
+.lg {
+  width: 40%; }
+
+.cta {
+  background-color: grey;
+  color: white;
+  transition: .2s ease; }
+  .cta:hover {
+    background-color: #737373;
+    transition: .2s ease; }
+
+.ghost {
+  background-color: transparent;
+  color: grey;
+  border: 1px solid grey;
+  transition: .2s ease; }
+  .ghost:hover {
+    background-color: grey;
+    color: white;
+    transition: .2s ease; }
+
 /*# sourceMappingURL=styles.css.map */

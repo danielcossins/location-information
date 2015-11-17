@@ -1,6 +1,20 @@
 app.controller("MainCtrl", 
-  ["$scope", "$http",
-  function($scope, $http) {
+  ["$scope", "$http", "$location",
+  function($scope, $http, $location) {
+    console.log($location.path());
+
+    
+    $scope.$on('$routeChangeSuccess', function () {
+      console.log($location.path());
+      if($location.path() === "/zip-to-city"){
+        console.log(1);
+      }
+      else if($location.path() === "/city-to-zip"){
+        console.log(2);
+      }else{
+        console.log(0);
+      }
+    });
     // $scope.input;
 
     // // runAjax();
