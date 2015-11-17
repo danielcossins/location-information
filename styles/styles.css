@@ -29,8 +29,11 @@ body {
 nav {
   background-color: white; }
 
+option {
+  color: white;
+  background-color: grey; }
+
 .button {
-  display: inline-block;
   border-radius: 2px;
   border: none;
   padding: 0;
@@ -44,7 +47,7 @@ nav {
   width: 20%; }
 
 .lg {
-  width: 40%; }
+  width: 100%; }
 
 .cta {
   background-color: grey;

@@ -1,5 +1,5 @@
 <div class="middle" style="width: 60%;">
-  <select ng-model="country" class="form-control">
+  <select ng-model="country" class="middle button lg ghost">
     <option value="AD">(AD) Andorra</option>
     <option value="AR">(AR) Argentina</option>
     <option value="AS">(AS) American Samoa</option>
@@ -72,7 +72,7 @@
   </select>
   <input class="form-control" type="text" ng-model="input">
 </div>
-<button class="middle btn btn-default" type="button" ng-click="getLocation()">Get Info</button>
+<button class="middle btn button lg ghost" type="button" ng-click="getLocation()">Get Info</button>
 <!-- <p>{{input}}</p> -->
 <div ng-show="ajax">
   <h3 class="middle" ng-repeat="(key, item) in ajax" style="margin-top: 10px; border-bottom: 2px solid grey;"><strong>{{key}}</strong>: {{item}}</h3>
