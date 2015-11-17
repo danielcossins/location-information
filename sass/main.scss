@@ -1,3 +1,4 @@
+$orange: #F07444;
 body{
   // background-color: #336600;
   // background-image: url("../images/img3.jpg")
@@ -31,9 +32,13 @@ body{
 }
 
 .background-white{
-  background-color: white;
+  background-color: grey;
   color: black;
   // padding: 20px;
+}
+
+.orange{
+  color: $orange;
 }
 
 nav{
@@ -59,7 +64,8 @@ option{
 
 
 
-// orange: #F07444;
+
+
 $secondary: #f3f3f3;
 $primary: grey;
 $gray: #232323;

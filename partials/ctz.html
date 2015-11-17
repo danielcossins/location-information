@@ -57,12 +57,12 @@
 </div>
 <button class="middle btn button lg ghost" type="button" ng-click="getLocation()"><strong style="color: #F07444;">Get Zip Info</strong></button>
 
-<div ng-show="ajax">
+<div ng-show="ajax" style="margin-top: 60px;">
   <!-- <h3 class="middle" ng-repeat="(key, item) in ajax"><strong>{{key}}</strong>: {{item}}</h3> -->
   <!-- <h2 class="middle">{{ajax.Country}} ({{ajax['Country Abbreviation']}})</h2> -->
-  <h3 class="middle">{{ajax.City}}, {{ajax.State}} ({{ajax['State Abbreviation']}})</h3>
   <h3 class="middle words background-white">All Zip Codes</h3>
-  <div class="middle place col-sm-3" ng-repeat="place in places">
+  <h3 class="middle orange">{{ajax.City}}, {{ajax.State}} ({{ajax['State Abbreviation']}})</h3>
+  <div class="middle place col-sm-3" ng-repeat="place in places" style="color: #F07444; border-color: grey;">
     Zip Code: {{place['post code']}}<br>
     Latitude: {{place.latitude}}<br>
     Longitude: {{place.longitude}}<br>

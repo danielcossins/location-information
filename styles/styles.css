@@ -23,8 +23,11 @@ body {
   color: white; }
 
 .background-white {
-  background-color: white;
+  background-color: grey;
   color: black; }
+
+.orange {
+  color: #F07444; }
 
 nav {
   background-color: white; }

@@ -74,6 +74,6 @@
 </div>
 <button class="middle btn button lg ghost" type="button" ng-click="getLocation()"><strong style="color: #F07444;">Get City Info</strong></button>
 <!-- <p>{{input}}</p> -->
-<div ng-show="ajax">
-  <h3 class="middle" ng-repeat="(key, item) in ajax" style="margin-top: 10px; border-bottom: 2px solid grey;"><strong>{{key}}</strong>: {{item}}</h3>
+<div ng-show="ajax" style="margin-top: 60px;">
+  <h3 class="middle orange" ng-repeat="(key, item) in ajax" style="margin-top: 10px; border-bottom: 2px solid grey;"><strong style="color: grey;">{{key}}:</strong> {{item}}</h3>
 </div>
