@@ -13,14 +13,14 @@ app.controller("ZTCCtrl",
       .then(function(data){
         console.log(data);
         var obj = {
-          country: data.data.country,
-          countryAbbr: data.data['country abbreviation'],
-          zipCode: data.data['post code'],
-          lat: data.data.places[0].latitude,
-          lon: data.data.places[0].longitude,
-          city: data.data.places[0]['place name'],
-          state: data.data.places[0].state,
-          stateAbbr: data.data.places[0]['state abbreviation']
+          Country: data.data.country  + " (" + data.data['country abbreviation'] + ")",
+          // 'Country Abbreviation': data.data['country abbreviation'],
+          'Zip Code': data.data['post code'],
+          Latitude: data.data.places[0].latitude,
+          Longitude: data.data.places[0].longitude,
+          City: data.data.places[0]['place name'],
+          State: data.data.places[0].state + " (" + data.data.places[0]['state abbreviation'] + ")"
+          // 'State Abbreviation': data.data.places[0]['state abbreviation']
         };
         console.log(obj);
         $scope.ajax = obj;
