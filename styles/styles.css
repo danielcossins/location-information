@@ -33,6 +33,12 @@ option {
   color: white;
   background-color: grey; }
 
+#ztcB {
+  min-width: 140px; }
+
+#ctzB {
+  min-width: 140px; }
+
 .button {
   border-radius: 2px;
   border: none;
@@ -48,14 +54,6 @@ option {
 
 .lg {
   width: 100%; }
-
-.cta {
-  background-color: grey;
-  color: white;
-  transition: .2s ease; }
-  .cta:hover {
-    background-color: #737373;
-    transition: .2s ease; }
 
 .ghost {
   background-color: transparent;

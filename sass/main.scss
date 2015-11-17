@@ -45,6 +45,12 @@ option{
   background-color: grey;
 }
 
+#ztcB{
+  min-width: 140px;
+}
+#ctzB{
+  min-width: 140px;
+}
 
 
 
@@ -54,7 +60,8 @@ option{
 
 
 
-// $primary: #F07444;
+
+// orange: #F07444;
 $secondary: #f3f3f3;
 $primary: grey;
 $gray: #232323;
@@ -80,21 +87,6 @@ $gray: #232323;
 
 .lg {
   width: 100%;
-}
-
-.cta {
-  background-color: $primary;
-  color: white;
-  
-  transition: .2s ease;
-  
-  &:hover {
-    background-color: darken($primary, 5%);
-    //color: $primary;
-    //border: 1px solid $primary;
-    
-    transition: .2s ease;
-  }
 }
 
 .ghost {
