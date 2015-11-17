@@ -1,5 +1,11 @@
 body{
-  background-color: #336600;
+  // background-color: #336600;
+  // background-image: url("../images/img3.jpg")
+    background: url("../images/img2.jpg");
+    // background-size: 50% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial;
 }
 
 .middle{
@@ -12,7 +18,18 @@ body{
   font-family: Arial;
 }
 
+.place{
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 20px;
+}
+
 .background-black{
   background-color: black;
   color: white;
+}
+
+.background-white{
+  background-color: white;
+  color: black;
 }
