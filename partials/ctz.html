@@ -58,9 +58,9 @@
 <button class="middle btn btn-default" type="button" ng-click="getLocation()">Get Info</button>
 
 <div ng-show="ajax">
-  <h3 class="middle" ng-repeat="(key, item) in ajax">{{key}}: {{item}}</h3>
-  <h4 class="middle words background-white">All Zip Codes</h4>
-  <div class="middle place" ng-repeat="place in places">
+  <h3 class="middle" ng-repeat="(key, item) in ajax"><strong>{{key}}</strong>: {{item}}</h3>
+  <h3 class="middle words background-white">All Zip Codes</h3>
+  <div class="middle place col-sm-3" ng-repeat="place in places">
     zip code: {{place['post code']}}<br>
     Latitude: {{place.latitude}}<br>
     Longitude: {{place.longitude}}<br>

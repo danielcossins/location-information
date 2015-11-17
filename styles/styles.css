@@ -1,6 +1,6 @@
 body {
   background: url("../images/img2.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   color: white;
   font-family: Arial; }
 
@@ -15,7 +15,8 @@ body {
 .place {
   border: 2px solid white;
   border-radius: 20px;
-  margin: 20px; }
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .background-black {
   background-color: black;
@@ -23,6 +24,10 @@ body {
 
 .background-white {
   background-color: white;
-  color: black; }
+  color: black;
+  padding: 20px; }
+
+nav {
+  background-color: white; }
 
 /*# sourceMappingURL=styles.css.map */

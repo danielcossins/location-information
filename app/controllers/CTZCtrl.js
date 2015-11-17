@@ -15,11 +15,11 @@ app.controller("CTZCtrl",
       .then(function(data){
         console.log(data);
         var obj = {
-          country: data.data.country,
-          countryAbbr: data.data['country abbreviation'],
-          city: data.data['place name'],
-          state: data.data.state,
-          stateAbbr: data.data['state abbreviation']
+          Country: data.data.country,
+          'Country Abbreviation': data.data['country abbreviation'],
+          City: data.data['place name'],
+          State: data.data.state,
+          'State Abbreviation': data.data['state abbreviation']
         };
         for(var i=0; i<data.data.places.length; i++){
           $scope.places.push(data.data.places[i]);
