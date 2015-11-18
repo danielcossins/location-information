@@ -8,6 +8,6 @@ A quick web app for getting the city when given a zip code, or getting a list of
 * Grunt
 
 ###Usage
-* '''git clone https://github.com/danielcossins11/location-information.git'''
-* '''cd location-information'''
-* '''http-server'''
+* ```git clone https://github.com/danielcossins11/location-information.git```
+* ```cd location-information```
+* ```http-server```
