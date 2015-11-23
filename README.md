@@ -8,8 +8,9 @@ A quick web app for getting the city when given a zip code, or getting a list of
 * Grunt
 
 ###Usage
-* ```git clone https://github.com/danielcossins11/location-information.git```
-* ```cd location-information```
-* ```http-server```
-
-Or visit the site at <a href="https://locationinformation.firebaseapp.com/#/">this link</a>. Unfortunately , the API calls do not work when hosting from firebase.
+1. ```git clone https://github.com/danielcossins11/location-information.git```
+2. ```cd location-information/lib```
+3. ```npm install```
+4. ```bower install```
+5. ```cd ..```
+6. ```http-server```
