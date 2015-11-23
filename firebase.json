@@ -1,9 +1,0 @@
-{
-  "firebase": "locationinformation",
-  "public": ".",
-  "ignore": [
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
-}
